@@ -349,7 +349,7 @@ async def upload_log_file(client, message):
 # /uploadvid - to upload files streamable
 # /uploaddoc - to upload files as a document
 #
-# For anything else.. DM **@GopalSaraf**
+# For anything else.. DM **@YourX**
 # **THANK YOU!**
 # 😊😊😊
 # """)
