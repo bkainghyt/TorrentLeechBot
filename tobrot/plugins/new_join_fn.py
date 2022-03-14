@@ -6,8 +6,8 @@ async def start_fn(client, message):
     if message.chat.type == "private":
         name = message.from_user.first_name
         msg = f"Hey {name}!\n"
-        msg += "I am a leecher bot..\n"
-        msg += "If you want to use me you have to join <a href='https://t.me/torrentleechgs'>TorrentLeech</a>!"
+        msg += "I am a uploader bot..\n"
+        msg += "If you want to use me contact now <a href='https://t.me/YourX'>Team</a>!"
         msg += "\n\nThank You😊"
         await message.reply_text(
             msg,
@@ -17,7 +17,7 @@ async def start_fn(client, message):
                 [
                     [
                         InlineKeyboardButton(
-                            "TorrentLeech", url="https://t.me/torrentleechgs"
+                            "Developer", url="https://t.me/YourX"
                         )
                     ]
                 ]
