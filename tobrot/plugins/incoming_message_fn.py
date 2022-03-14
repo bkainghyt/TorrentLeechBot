@@ -45,7 +45,7 @@ async def incoming_message_f(client, message):
     user_command = message.command[0]
     g_id = message.from_user.id
     credit = await message.reply_text(
-        f"🧲 Leeching for you <a href='tg://user?id={g_id}'>🤕</a>", parse_mode="html"
+        f"⚡ Upload for you <a href='tg://user?id={g_id}'>🤕</a>", parse_mode="html"
     )
     # get link from the incoming message
     i_m_sefg = await message.reply_text("processing...", quote=True)
@@ -173,7 +173,7 @@ async def incoming_message_f(client, message):
             await credit.delete()
         except:
             pass
-    # await credit.edit_text(f"🧲 Leeched successfully <a href='tg://user?id={g_id}'>👍</a>", parse_mode="html")
+    # await credit.edit_text(f"🛸 Uploaded successfully <a href='tg://user?id={g_id}'>👍</a>", parse_mode="html")
 
 
 async def incoming_youtube_dl_f(client, message):
