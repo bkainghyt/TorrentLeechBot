@@ -7,7 +7,7 @@ async def start_fn(client, message):
         name = message.from_user.first_name
         msg = f"Hey {name}!\n"
         msg += "I am a uploader bot..\n"
-        msg += "If you want to use me contact now <a href='https://t.me/YourX'>Team</a>!"
+        msg += "If you want to use me contact now <a href='https://t.me/YourX'>@TeamYourX</a>!"
         msg += "\n\nThank You😊"
         await message.reply_text(
             msg,
